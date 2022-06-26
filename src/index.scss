@@ -1,0 +1,13 @@
+@import "./style-variables/variables.scss";
+@import url("https://fonts.google.com/specimen/Open+Sans");
+
+html {
+  margin: 0;
+  font-family: 'Open Sans';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background-color;
+  font-size: 14px;
+}
+
+

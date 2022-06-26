@@ -1,0 +1,27 @@
+@import "../../style-variables/variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+.navbar {
+      display: flex;
+      justify-content: space-between;
+      margin: 60px 60px 60px;
+}
+
+.navbar__links {
+      
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-family: 'Raleway';
+      a {
+            margin-left:25px ;
+            text-decoration: none;
+            color: $texts;
+            &:hover {
+                  text-decoration: underline;
+                  text-decoration-color: $texts;
+            }
+
+            
+      }
+}
+
