@@ -1,0 +1,14 @@
+.my-button {
+  background-image: linear-gradient(to right, hsl(176deg, 68%, 64%), hsl(198deg, 60%, 50%));
+  width: 27rem;
+  height: 4rem;
+  border-radius: 2.5rem;
+  border: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: "Raleway";
+}
+.my-button:hover {
+  background-color: hsl(176deg, 68%, 64%);
+  background-image: none;
+}/*# sourceMappingURL=Button.style.css.map */

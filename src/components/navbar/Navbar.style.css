@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 6rem 6rem 6rem;
+}
+
+.navbar__links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Raleway";
+}
+.navbar__links a {
+  margin-left: 2.5rem;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+.navbar__links a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: #ffffff;
+          text-decoration-color: #ffffff;
+}/*# sourceMappingURL=Navbar.style.css.map */

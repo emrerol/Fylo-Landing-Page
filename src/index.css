@@ -1,0 +1,10 @@
+@import url("https://fonts.google.com/specimen/Open+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+html {
+  margin: 0;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #181f2a;
+  font-size: 62.5%;
+}/*# sourceMappingURL=index.css.map */

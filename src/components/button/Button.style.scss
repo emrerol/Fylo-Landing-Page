@@ -1,0 +1,17 @@
+@import "../../style-variables/variables.scss";
+
+.my-button {
+      background-image: linear-gradient(to right, $button-cyan, $button-blue  );
+      width: 27rem;
+      height: 4rem;
+      border-radius: 2.5rem;
+      border: none;
+      cursor: pointer;
+      color: $texts;
+      font-family: 'Raleway';
+
+      &:hover {
+            background-color: $button-cyan;
+            background-image: none;
+      }
+}
