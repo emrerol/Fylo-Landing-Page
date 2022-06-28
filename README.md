@@ -3,6 +3,8 @@
 ### Hali Hazırda Var Olan Kısımlar:
 
 - Header
+- Landing
+- Testimonials
 
 ### Teknolojiler/Araçlar/Kütüphaneler vb. (Kullandıkça Güncelleyerek Listeyi Genişleteceğim):
 
