@@ -1,0 +1,60 @@
+@import "../../style-variables/variables.scss";
+.testimonial {
+     
+      width: 60%;
+      margin: 3rem auto;
+      padding: 3rem;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-column-gap: 15rem;
+      grid-row-gap: 6rem;
+      .div {
+            height: 20rem;
+           ;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           text-align: center;
+           
+           color: $texts;
+
+           .p-holder {
+            width: 25em;
+           }
+      }
+      
+
+      
+}
+
+@media only screen and (max-width:1096px) {
+      .testimonial {
+     
+            width: 60%;
+            margin: 3rem auto;
+            padding: 3rem;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-column-gap: 15rem;
+            grid-row-gap: 6rem;
+            .div {
+                  height: 20rem;
+                 ;
+                 display: flex;
+                 align-items: center;
+                 justify-content: center;
+                 flex-direction: column;
+                 text-align: center;
+                 
+                 color: $texts;
+      
+                 .p-holder {
+                  width: 25em;
+                 }
+            }
+            
+      
+            
+      }
+}

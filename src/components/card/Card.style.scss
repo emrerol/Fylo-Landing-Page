@@ -1,0 +1,43 @@
+
+@import "../../style-variables/variables.scss";
+.card {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color: $texts;
+      margin-bottom: 2rem;
+      
+
+      .card__image {
+            max-width: 46rem;
+            max-height: 32rem;
+            
+      }
+
+     .card__text-container {
+      text-align: center;
+      font-size: 2.8rem;
+      font-family: 'Open Sans';
+      font-weight: 700;
+      margin: 0;
+
+      .card__text-container--secondary
+      {
+            font-size: 1.4rem;
+            font-weight: 400;
+            text-align: center;
+            line-height: 1.8rem;
+      }
+     }
+
+     .curve{
+      margin-top: calc(19rem * -1);
+      width: auto;
+      z-index: -1;
+     }
+
+   
+
+}
+
