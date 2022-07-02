@@ -11,7 +11,7 @@ const defaults = [
     logo: Access,
     heading: "Access your files, anywhere",
     explain:
-      "anywhere The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.",
+      "The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.",
   },
   {
     logo: Security,

@@ -5,8 +5,14 @@
   flex-direction: column;
   color: #ffffff;
   margin-bottom: 2rem;
+  -webkit-animation-name: introAnimation;
+          animation-name: introAnimation;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in;
+          animation-timing-function: ease-in;
 }
-.card .card__image {
+.card__image {
   max-width: 46rem;
   max-height: 32rem;
 }
@@ -27,4 +33,22 @@
   margin-top: -19rem;
   width: auto;
   z-index: -1;
+}
+
+@-webkit-keyframes introAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes introAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=Card.style.css.map */

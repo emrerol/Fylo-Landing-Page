@@ -1,0 +1,35 @@
+.productivity {
+  width: 100%;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  font-family: "Open Sans";
+  flex-wrap: wrap;
+}
+.productivity__image {
+  max-width: 52rem;
+  max-height: 52rem;
+}
+.productivity__text-holder {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 24rem;
+  color: #ffffff;
+  width: 32rem;
+}
+.productivity__text-holder--header {
+  font-size: 3.5rem;
+}
+.productivity__text-holder--text {
+  font-size: 1rem;
+}
+.productivity__text-holder--route {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  width: 35%;
+  text-decoration: underline;
+  color: hsl(176deg, 68%, 64%);
+}/*# sourceMappingURL=Action.style.css.map */

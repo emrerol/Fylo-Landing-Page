@@ -5,7 +5,7 @@ function TestimonialCard({ logo, heading, explain, extraClass }) {
     <div className={`.test-card__container ${extraClass}`}>
       <img src={logo} />
       <br />
-      <h3>{heading}</h3>
+      <h2>{heading}</h2>
       <div className="p-holder">
         <p>{explain}</p>
       </div>

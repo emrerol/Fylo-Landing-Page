@@ -1,0 +1,46 @@
+@import "../../style-variables/variables.scss";
+
+.productivity {
+      width: 100%;
+      margin-top: 10rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;      
+      font-family: 'Open Sans';
+      flex-wrap: wrap;
+      
+      
+      &__image {
+            max-width: 52rem;
+            max-height: 52rem;
+      }
+
+      &__text-holder {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin-left: 24rem;
+            color: $texts;
+            width: 32rem;
+            &--header {
+                  font-size: 3.5rem;      
+            }
+
+            &--text{
+                  font-size: 1rem;
+            }
+
+            &--route {
+                  display: flex;
+                  justify-content: space-between;
+                  cursor: pointer;
+                  width: 35%;
+                  text-decoration: underline;
+                  color: $button-cyan;
+                  
+            
+            }
+      }
+
+}
+

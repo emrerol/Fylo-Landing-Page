@@ -7,9 +7,13 @@
       flex-direction: column;
       color: $texts;
       margin-bottom: 2rem;
+      animation-name: introAnimation;
+      animation-duration: 2s;
+      animation-timing-function: ease-in;
+
       
 
-      .card__image {
+      &__image {
             max-width: 46rem;
             max-height: 32rem;
             
@@ -41,3 +45,14 @@
 
 }
 
+@keyframes introAnimation {
+      0% {
+            opacity: 0;
+      }
+
+      100% {
+            opacity: 1;
+           
+      }
+
+}
