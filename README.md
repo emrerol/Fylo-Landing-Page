@@ -5,6 +5,7 @@
 - Header
 - Landing
 - Testimonials
+- Call Out
 
 ### Teknolojiler/Araçlar/Kütüphaneler vb. (Kullandıkça Güncelleyerek Listeyi Genişleteceğim):
 
