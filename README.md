@@ -6,6 +6,7 @@
 - Landing
 - Testimonials
 - Call Out
+- Quotes (Comments)
 
 ### Teknolojiler/Araçlar/Kütüphaneler vb. (Kullandıkça Güncelleyerek Listeyi Genişleteceğim):
 
