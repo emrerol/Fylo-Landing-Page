@@ -1,0 +1,53 @@
+@import "../../style-variables/variables.scss";
+.comment-card {
+      width: 34rem;
+      height: 20rem;
+      border-radius: .5rem;
+      font-family: 'Open Sans';
+      background-color: $testimonial-card;
+      color: $texts;
+      margin-bottom: 4rem;
+      &__text {
+            padding:2rem 2rem;
+            font-size: 1.25rem;
+            float: left;
+            
+      }
+
+      &__info {
+      
+            justify-items: center;
+            padding-left:2rem;
+            display: flex;
+            flex-direction: row;
+            
+            &--img {
+                  width: 4rem;
+                  height: 4rem;
+                  border-radius: 100%;
+                  background-image:  url("../../images/profile-1.jpg");
+                  background-size:cover;
+                  align-self: center;
+
+            }
+
+            &--person {
+                  margin-left: 1.5rem;
+                  display: flex;
+                  justify-content: flex-end;
+                  flex-direction: column;
+                  
+                  &--name {
+                      margin-bottom: 0.8rem;
+                      font-weight: bold;
+                  }
+
+                  &--title {
+                       font-size: smaller;
+                       margin-bottom: .5rem;
+                  }
+            }
+      }
+      
+}
+
