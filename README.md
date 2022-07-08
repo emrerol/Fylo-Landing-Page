@@ -1,4 +1,4 @@
-## FrontendMentor Sitesindeki Fylo Dark Theme Landing Page Challenge Çözümüdür. Henüz Geliştirmekteyim.
+## FrontendMentor Sitesindeki Fylo Dark Theme Landing Page Challenge Çözümüdür. Henüz Bitmedi. 
 
 ### Hali Hazırda Var Olan Kısımlar:
 
@@ -7,6 +7,11 @@
 - Testimonials
 - Call Out
 - Quotes (Comments)
+
+### Eksiklikler: 
+- Mobil ve tablet görünümünde ortaya çıkan bazı sorunlar
+- Mobil görünümde hamburger buton
+- E-Mail subscription kısmı
 
 ### Teknolojiler/Araçlar/Kütüphaneler vb. (Kullandıkça Güncelleyerek Listeyi Genişleteceğim):
 
