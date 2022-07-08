@@ -1,0 +1,42 @@
+.comment-card {
+  width: 34rem;
+  height: 20rem;
+  border-radius: 0.5rem;
+  font-family: "Open Sans";
+  background-color: hsl(219deg, 30%, 18%);
+  color: #ffffff;
+  margin-bottom: 4rem;
+}
+.comment-card__text {
+  padding: 2rem 2rem;
+  font-size: 1.25rem;
+  float: left;
+}
+.comment-card__info {
+  justify-items: center;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: row;
+}
+.comment-card__info--img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  background-image: url("../../images/profile-1.jpg");
+  background-size: cover;
+  align-self: center;
+}
+.comment-card__info--person {
+  margin-left: 1.5rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+.comment-card__info--person--name {
+  margin-bottom: 0.8rem;
+  font-weight: bold;
+}
+.comment-card__info--person--title {
+  font-size: smaller;
+  margin-bottom: 0.5rem;
+}/*# sourceMappingURL=CommentCard.style.css.map */

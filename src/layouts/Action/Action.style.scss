@@ -37,8 +37,11 @@
                   width: 35%;
                   text-decoration: underline;
                   color: $button-cyan;
-                  
-            
+                  text-decoration-line: 2px;
+ 
+                  &:hover {
+                        color: $texts;
+                  }
             }
       }
 

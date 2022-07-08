@@ -32,4 +32,9 @@
   width: 35%;
   text-decoration: underline;
   color: hsl(176deg, 68%, 64%);
+  -webkit-text-decoration-line: 2px;
+          text-decoration-line: 2px;
+}
+.productivity__text-holder--route:hover {
+  color: #ffffff;
 }/*# sourceMappingURL=Action.style.css.map */
