@@ -25,11 +25,15 @@ const Footer = () => {
         <div className="footer-wrapper-container__contact">
           <div className="footer-wrapper-container__contact--phone">
             <img src={Phone} className="contact-img" />
-            <p>+1-543-123-4567</p>
+            <a href="#" className="footer-wrapper-container__contact--item">
+              +1-543-123-4567
+            </a>
           </div>
           <div className="footer-wrapper-container__contact--mail">
             <img src={Mail} className="contact-img" />
-            <p>example@fylo.com </p>
+            <a href="#" className="footer-wrapper-container__contact--item">
+              example@fylo.com{" "}
+            </a>
           </div>
         </div>
         <div className="footer-wrapper-container__links">

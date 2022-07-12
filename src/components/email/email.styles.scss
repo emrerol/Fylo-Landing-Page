@@ -1,0 +1,51 @@
+@import '../../style-variables/variables.scss';
+
+@mixin placeholderStyle {
+      font-size: 1.1rem;
+      opacity: .5;
+      text-indent: 2rem
+}
+
+.email {
+      position: absolute;
+      width: 80rem;
+      height: 20rem;
+      align-items: center;
+      text-align: center;
+      background-color: $mail;
+      border-radius: 5px;
+
+      &__container {
+            margin-top: 2rem;
+            
+
+            &--input {
+                  
+                  width: 40rem;
+                  border-radius:25px;
+                  margin-right: 5rem;
+                  height: 4rem;
+                  border: none;
+                  &::-webkit-input-placeholder {
+                        @include placeholderStyle();     
+                  }    
+                  
+                  &:-moz-placeholder {
+                        @include placeholderStyle();
+                  }
+            }
+      }
+}
+
+#mail-title {
+      color: $texts;
+      margin-top: 3rem;
+}
+
+#mail-explain {
+      display: block;
+      color: $texts;
+      font-size: 1.2rem;
+      margin-right: 11rem;
+      margin-left: 11rem;
+}

@@ -43,7 +43,7 @@ function Testimonial() {
           heading={item.heading}
           explain={item.explain}
         />
-      ))}
+      ))}{" "}
     </div>
   );
 }

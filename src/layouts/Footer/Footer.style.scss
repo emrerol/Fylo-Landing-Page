@@ -23,6 +23,7 @@
       height: 40rem;
       color: $texts;
       font-family: 'Open Sans';
+      margin-bottom: 0;
 
       &__logo {
             margin-top: 10rem;
@@ -33,7 +34,7 @@
 
       &-container {
             position: absolute;
-            margin: 10rem 6rem 6rem 10rem;
+            margin: 10rem 6rem 0 10rem;
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
@@ -60,22 +61,33 @@
             }
 
             &__contact {
+
+                  &--item{
+                        text-decoration: none;
+                        color: $texts;
+                        margin-top: 1rem;
+                  }
+                  cursor: pointer;
                   
                   width: 20rem;
                 display: flex;
                 flex-direction: column;
                 margin-left: 10rem;
                 margin-top: 1rem;
+                
 
                  &--phone {
                   @include dspflexrow;
                   align-items: center;
+                  margin-bottom: 1rem
+               
                   
                  }
 
                  &--mail {
                   @include dspflexrow;
                   align-items: center;
+
                  }
             }
 
@@ -132,6 +144,50 @@
       height: 1.4rem;
       margin-right: 1rem;
       
+}
+
+@media (max-width: 1250px) {
+      .footer-wrapper {
+
+
+            &__logo{
+                  position: absolute;
+                  margin-top: 3rem;
+                  margin-bottom: 4rem;
+            }
+
+            &-container{
+
+                  display: flex;
+                  flex-direction: column;
+                  flex-wrap: wrap;
+                 
+
+                  // &__location {
+                  //       position: absolute;
+                  //       margin-top: 10rem;
+                  // }
+
+                  // &__contact{
+                  //       position: absolute;
+                  //       margin-top: 20em;
+                  //       margin-left: .4rem;
+                  // }
+
+                  // &__links {
+                  //       position: absolute;
+                  //       margin-top: 22em;
+                  //       margin-left: .4rem;
+                  // }
+
+                  // &__socials {
+                  //       position: absolute;
+                  //       margin-top: 40rem;
+                        
+                  // }
+            }
+           
+      }
 }
 
 

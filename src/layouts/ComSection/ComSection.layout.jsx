@@ -1,6 +1,7 @@
 import CommentCard from "../../components/comment/CommentCard.component";
 import "./ComSection.style.scss";
 import Quote from "../../images/bg-quotes.png";
+
 const ComSection = () => {
   const commentData = [
     {
